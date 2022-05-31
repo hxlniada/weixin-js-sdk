@@ -1,6 +1,9 @@
-!(function(e, n) {
-  module.exports = n(e);
-})(window, function(o, e) {
+function init(e) {
+  if (typeof window === 'undefined') {
+      return {}
+  }
+  const o = window
+  
   if (!o.jWeixin) {
     var n,
       c = {
@@ -895,4 +898,6 @@
         : i.addEventListener &&
           i.addEventListener("WeixinJSBridgeReady", e, !1));
   }
-});
+};
+
+export default init()
