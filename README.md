@@ -1,7 +1,7 @@
 微信官方 js-sdk
 ----
 
-说明: 仅将官方 js-sdk 发布到 npm，支持 ssr
+说明: 仅将官方 js-sdk 发布到 npm，兼容 ssr
 
 js源码: https://res.wx.qq.com/open/js/jweixin-1.6.0.js
 
@@ -13,4 +13,4 @@ js源码: https://res.wx.qq.com/open/js/jweixin-1.6.0.js
 
 使用:
 
-    import wx from 'weixin-js-sdk';
+    import wx from 'weixin-js-sdk-ssr';
